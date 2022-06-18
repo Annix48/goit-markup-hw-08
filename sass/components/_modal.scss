@@ -34,15 +34,14 @@
     transform: scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media screen and (min-width:480px) {
+    @media screen and (min-width: 480px) {
         width: 450px;
         min-height: 609px;
     }
 
-    @media screen and (min-width:1200px) {
-        width: 528x;
+    @media screen and (min-width: 1200px) {
+        width: 528px;
         min-height: 581px;
-        
     }
 }
 
@@ -74,7 +73,6 @@
 }
 
 .form {
-    width: 528px;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
@@ -82,11 +80,10 @@
     @media screen and (min-width: 480px) {
         width: 450px;
     }
-    
+
     @media screen and (min-width: 1200px) {
         width: 528px;
     }
-    
 }
 
 .form-title {
@@ -177,13 +174,12 @@ textarea {
 }
 
 .form-field-chek {
-    padding-left: 14px;
+    padding-left: 0px;
     margin-top: 25px;
     margin-bottom: 30px;
 
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width: 1200px) {
         padding-left: 14px;
-        
     }
 }
 
@@ -208,7 +204,7 @@ textarea {
     border: 0;
     clip: rect(0 0 0 0);
 
-    &:checked + .icon-chek {
+    &:checked+.icon-chek {
         background-image: url(../images/icon-check.svg);
         background-position: center;
         background-repeat: no-repeat;
@@ -231,21 +227,21 @@ textarea {
         line-height: 1.11;
     }
 
-    @media screen and (min-width:1200px) {
-    font-size: 14px;
-    line-height: 1.71;        
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.71;
     }
 }
 
 .policy-link {
-    margin-left: 4px;
+    margin-left: 3px;
     color: rgba(33, 150, 243, 1);
 
-    @media screen and (max-width:479px) {
+    @media screen and (max-width: 479px) {
         position: absolute;
         top: 18px;
         left: 21px;
-        }
+    }
 }
 
 .form-btn {

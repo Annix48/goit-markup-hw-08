@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   letter-spacing: 0.03em;
   background-color: var(--white-background-color);
   color: var(--primary-text-color);
@@ -1470,7 +1470,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528x;
+    width: 528px;
     min-height: 581px;
   }
 }
@@ -1507,7 +1507,6 @@ img {
 }
 
 .form {
-  width: 528px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
@@ -1637,7 +1636,7 @@ textarea:focus {
 }
 
 .form-field-chek {
-  padding-left: 14px;
+  padding-left: 0px;
   margin-top: 25px;
   margin-bottom: 30px;
 }
@@ -1705,7 +1704,7 @@ textarea:focus {
 }
 
 .policy-link {
-  margin-left: 4px;
+  margin-left: 3px;
   color: #2196f3;
 }
 
