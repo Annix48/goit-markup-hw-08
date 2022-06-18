@@ -1,5 +1,9 @@
 .work {
     padding-bottom: 94px;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
 }
 
 .work__title {
@@ -8,17 +12,20 @@
 
 .work-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
 }
 
 .work-list__item {
     position: relative;
 }
 
-.work-list__item {
+/*.work-list__item {
     &:not(:last-child) {
         margin-right: 30px;
     }
-}
+}*/
 
 .work-list__text {
     width: 100%;
